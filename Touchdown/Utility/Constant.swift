@@ -6,16 +6,17 @@
 //
 
 import SwiftUI
-
-//Data
-
 //Color
 
 let colorBackgound: Color = Color("ColorBackground")
 let colorGray: Color = Color(UIColor.systemGray4)
 
 //Layout
-
+let columnSpacing: CGFloat = 10
+let rowSpacing: CGFloat = 10
+var gridLayout: [GridItem] {
+    Array(Array(repeating: GridItem(.flexible(), spacing: rowSpacing), count: 2))
+}
 //UX
 
 //API
