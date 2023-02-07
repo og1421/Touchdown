@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8517AEF72992F1CD0093D502 /* ProductDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517AEF62992F1CD0093D502 /* ProductDetailView.swift */; };
+		8517AEF92992F3380093D502 /* NavigationBarDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517AEF82992F3380093D502 /* NavigationBarDetailView.swift */; };
+		8517AEFB2992F4670093D502 /* HeaderDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517AEFA2992F4670093D502 /* HeaderDetailView.swift */; };
+		8517AEFD2992F5850093D502 /* TopPartDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8517AEFC2992F5850093D502 /* TopPartDetailView.swift */; };
 		85867E4A298E50E300AAC900 /* TouchdownApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85867E49298E50E300AAC900 /* TouchdownApp.swift */; };
 		85867E4C298E50E300AAC900 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85867E4B298E50E300AAC900 /* ContentView.swift */; };
 		85867E4E298E50E400AAC900 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85867E4D298E50E400AAC900 /* Assets.xcassets */; };
@@ -57,6 +61,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8517AEF62992F1CD0093D502 /* ProductDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailView.swift; sourceTree = "<group>"; };
+		8517AEF82992F3380093D502 /* NavigationBarDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationBarDetailView.swift; sourceTree = "<group>"; };
+		8517AEFA2992F4670093D502 /* HeaderDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderDetailView.swift; sourceTree = "<group>"; };
+		8517AEFC2992F5850093D502 /* TopPartDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPartDetailView.swift; sourceTree = "<group>"; };
 		85867E46298E50E300AAC900 /* Touchdown.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Touchdown.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		85867E49298E50E300AAC900 /* TouchdownApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchdownApp.swift; sourceTree = "<group>"; };
 		85867E4B298E50E300AAC900 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -195,6 +203,7 @@
 			children = (
 				85867E49298E50E300AAC900 /* TouchdownApp.swift */,
 				85867E4B298E50E300AAC900 /* ContentView.swift */,
+				8517AEF62992F1CD0093D502 /* ProductDetailView.swift */,
 			);
 			path = App;
 			sourceTree = "<group>";
@@ -211,6 +220,9 @@
 		85867E80298E58B400AAC900 /* Detail */ = {
 			isa = PBXGroup;
 			children = (
+				8517AEF82992F3380093D502 /* NavigationBarDetailView.swift */,
+				8517AEFA2992F4670093D502 /* HeaderDetailView.swift */,
+				8517AEFC2992F5850093D502 /* TopPartDetailView.swift */,
 			);
 			path = Detail;
 			sourceTree = "<group>";
@@ -404,11 +416,15 @@
 				85B65904298FFB1000DB7295 /* ProductItemView.swift in Sources */,
 				85867E4A298E50E300AAC900 /* TouchdownApp.swift in Sources */,
 				85B6590C299000A200DB7295 /* BrandGridView.swift in Sources */,
+				8517AEFB2992F4670093D502 /* HeaderDetailView.swift in Sources */,
+				8517AEFD2992F5850093D502 /* TopPartDetailView.swift in Sources */,
 				85867E86298E591500AAC900 /* Constant.swift in Sources */,
 				85B658FC298FF42400DB7295 /* CategoryGridView.swift in Sources */,
+				8517AEF92992F3380093D502 /* NavigationBarDetailView.swift in Sources */,
 				85B658F8298FF0EA00DB7295 /* CategoryModel.swift in Sources */,
 				85867E8A298E5D4A00AAC900 /* NavigationBarView.swift in Sources */,
 				85B658FE298FF5A600DB7295 /* SectionView.swift in Sources */,
+				8517AEF72992F1CD0093D502 /* ProductDetailView.swift in Sources */,
 				85B658FA298FF28000DB7295 /* CategoryItemView.swift in Sources */,
 				85ED245B298EAE16002A25E6 /* FeaturedTabView.swift in Sources */,
 				85ED2455298EAAD0002A25E6 /* PlayerModel.swift in Sources */,
