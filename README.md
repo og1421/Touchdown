@@ -9,8 +9,8 @@ Touchdown app is an e-commerce app created using the SwiftUI framework from Appl
 #### Landing page
 
 | <img src="https://github.com/og1421/Touchdown/blob/main/Images/landingView.png"
-height="375" width="187"> | <img src="https://github.com/og1421/Touchdown/blob/main/Images/landingView2.png"
-height="375" width="187"> | <img src="https://github.com/og1421/Touchdown/blob/main/Images/landingView3.png" 
+height="375" width="187"> | <img src="https://github.com/og1421/Touchdown/blob/main/Images/ladingView2.png"
+height="375" width="187"> | <img src="https://github.com/og1421/Touchdown/blob/main/Images/ladingView3.png" 
 height="375" width="187"> | 
 
 #### Detail Item View
