@@ -20,5 +20,4 @@ height="750" width="375">
 
 # Technologies used
 - SwitUI 
-- MapKit
 - File Manager
